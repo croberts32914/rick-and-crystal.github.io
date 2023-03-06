@@ -1,0 +1,155 @@
+p.thicker {
+  font-weight: 900;
+}
+
+body {
+  color: white;
+}  #1abc9c
+
+h2 {
+  background-color: #c863c9;
+  color: white;
+}
+
+/* header */
+.header {
+  background-color: #F769E9;
+  text-align: center;
+  padding: 20px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 20px;
+}
+
+.header {
+  padding: 50px;
+  text-align: center;
+  background: #F769E9;
+  color: white;
+  font-size: 23px;
+}                #a0e8ab
+
+/* paragraph */
+p {
+    font-size: 14px;
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #DC39CC;
+}
+
+/* Navbar links */
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+ /* round image */
+img {
+  border-radius: 50%;
+}
+
+/* Create three equal columns that float next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 50%;
+  }}
+
+#demobox {
+  background-color: translusent ;
+  padding: 50px ;
+  border: 1px solid yellow;
+  border-radius: 50px ;
+}
+
+/* blog style */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* look at fake image info ? */
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Teal */
+/* Add a card effect for articles */
+.card {
+  background-color: #1abc9c;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: #DC39CC;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }}
